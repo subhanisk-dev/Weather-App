@@ -1,16 +1,36 @@
-# React + Vite
+# SkyCast – Weather Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern responsive weather dashboard built with React, Vite,
+Axios and OpenWeather API.
 
-Currently, two official plugins are available:
+## Features
+- Real-time weather
+- City search
+- Current location weather
+- °C / °F conversion
+- 5-day forecast
+- Hourly forecast
+- Temperature chart
+- Favorite cities
+- Recent searches
+- Dark / light mode
+- Weather-based backgrounds
+- Responsive design
+- API error handling
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
+- React
+- Vite
+- JavaScript
+- CSS
+- Axios
+- OpenWeather API
 
-## React Compiler
+## Setup
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Create .env:
 
-## Expanding the ESLint configuration
+VITE_OPENWEATHER_API_KEY=your_api_key
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
